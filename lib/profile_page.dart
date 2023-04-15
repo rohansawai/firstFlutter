@@ -5,6 +5,7 @@ class ProfilePage extends StatelessWidget {
   const ProfilePage({super.key});
 
   @override
+  int count = 0;
   Widget build(BuildContext context) {
     return ListView.builder(
       itemCount: 20,
